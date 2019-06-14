@@ -43,18 +43,6 @@ hr {
   background-color: #66bfbf;
 }
 
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
 .contact-me {
   padding-top: 100px;
   width: 50%;
@@ -73,6 +61,12 @@ hr {
   color: #11999E;
   margin-right: 20px;
   font-size: 16px;
+}
+
+.java-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .mountain {
@@ -120,13 +114,26 @@ hr {
 
 
 .profile {
-  padding: 100px;
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
+  /* padding: 100px; */
 }
 
 .profile-photo {
   border-radius: 120px;
   height: 200px;
   width: 200px;
+}
+
+.project {
+  padding-top: 100px;
+}
+
+.project-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
 }
 
 .skills {
@@ -140,14 +147,24 @@ hr {
   line-height: 2;
 }
 
-.top-container {
-  background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
+.todolist-img {
+  width: 100%;
 }
 
 .top-cloud {
   position: absolute;
   right: 250px;
   top: 50px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.web-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
